@@ -79,18 +79,18 @@ const Cv = () => {
                         <h1>Formations</h1>
                         <div class="content">
                             <div class="item">
-                                <h3 class="title">Spécialité - <span class="place"><a href="#">Ecole de Formation / Université</a></span> <span class="year">(Mois année - Mois année)</span></h3>
+                                <h3 class="title">Spécialité - <span class="place"><a href="https://ngakui.fr">Ecole de Formation / Université</a></span> <span class="year">(Mois année - Mois année)</span></h3>
                             </div>
                             <div class="item">
-                                <h3 class="title">Spécialité - <span class="place"><a href="#">Ecole de Formation / Université</a></span> <span class="year">(Mois année - Mois année)</span></h3>
+                                <h3 class="title">Spécialité - <span class="place"><a href="https://ngakui.fr">Ecole de Formation / Université</a></span> <span class="year">(Mois année - Mois année)</span></h3>
                             </div>
                             
                             <div class="item">
-                                <h3 class="title">Spécialité - <span class="place"><a href="#">Ecole de Formation / Université</a></span> <span class="year">(Mois année - Mois année)</span></h3>
+                                <h3 class="title">Spécialité - <span class="place"><a href="https://ngakui.fr">Ecole de Formation / Université</a></span> <span class="year">(Mois année - Mois année)</span></h3>
                             </div>
 
                             <div class="item">
-                                <h3 class="title">Spécialité - <span class="place"><a href="#">Ecole de Formation / Université</a></span> <span class="year">(Mois année - Mois année)</span></h3>
+                                <h3 class="title">Spécialité - <span class="place"><a href="https://ngakui.fr">Ecole de Formation / Université</a></span> <span class="year">(Mois année - Mois année)</span></h3>
                             </div>
                             
                         </div>
