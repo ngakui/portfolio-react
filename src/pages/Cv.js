@@ -1,4 +1,4 @@
-import { Card, Col, Container, Row } from "react-bootstrap";
+import {Col, Container, Row } from "react-bootstrap";
 import Navmenu from "../components/NavMenu";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhoneAlt} from '@fortawesome/free-solid-svg-icons';
@@ -39,7 +39,7 @@ const Cv = () => {
                     <Row>
                         <Col md={6}>
                             <div className="img-circle">
-                                <img src={profil} />
+                                <img src={profil} alt="Profile"/>
                             </div>
                         </Col>
                         <Col md={6}>
