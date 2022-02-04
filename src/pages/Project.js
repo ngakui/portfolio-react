@@ -6,6 +6,10 @@ import projet2 from "../assets/images/project2.jpg"
 import projet3 from "../assets/images/project3.jpg"
 import projet4 from "../assets/images/project4.jpg"
 
+/**
+ * Page projets où sont representés tous les projets de la personne.
+ */
+
 const Project = () => {
 
     const projects = [
@@ -13,25 +17,25 @@ const Project = () => {
             title: "Projet 1", 
             desc: "Some quick example text to build on the card title and make up the bulk of the card's content.", 
             img: projet1, 
-            link: "#"
+            link: "https://ngakui.fr"
         },
         {
             title: "Projet 2", 
             desc: "Some quick example text to build on the card title and make up the bulk of the card's content.", 
             img: projet2, 
-            link: "#"
+            link: "https://ngakui.fr"
         },
         {
             title: "Projet 3", 
             desc: "Some quick example text to build on the card title and make up the bulk of the card's content.", 
             img: projet3, 
-            link: "#"
+            link: "https://ngakui.fr"
         },
         {
             title: "Projet 4", 
             desc: "Some quick example text to build on the card title and make up the bulk of the card's content.", 
             img: projet4, 
-            link: "#"
+            link: "https://ngakui.fr"
         },
     ];
 

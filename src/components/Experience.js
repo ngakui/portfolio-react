@@ -1,5 +1,12 @@
 import { Card, Col, Row } from "react-bootstrap";
 
+/**
+ * Composant Card pour afficher les expériences
+ * @param {string} period Periode du poste
+ * @param {string} enterprise Entreprise
+ * @param {string} position Poste occupé
+ * @param {string} mission Mission accomplis au sein de l'entreprise.
+ */
 
 const Experience = ({period, enterprise, position, mission}) => {
 

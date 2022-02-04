@@ -1,6 +1,10 @@
 import { Nav, Container, Navbar,} from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
+/**
+ * Composant Navbar pour faciliter la navigation sur le site.
+ */
+
 const Navmenu = () => {
     return (
         <Navbar bg="light" variant="light">

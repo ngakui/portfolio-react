@@ -6,6 +6,9 @@ import { faMapMarkedAlt} from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope} from '@fortawesome/free-solid-svg-icons';
 import profil from "../assets/images/profil.jpg"
 import Experience from "../components/Experience";
+/**
+ * Page CV où est representé toutes les informations de la personne.
+ */
 
 const Cv = () => {
     
@@ -35,6 +38,8 @@ const Cv = () => {
         <div>
             <Navmenu />
             <Container>
+
+                {/* Section d'Information*/}
                 <section>
                     <Row>
                         <Col md={6}>
@@ -50,6 +55,8 @@ const Cv = () => {
                         </Col>
                     </Row>
                 </section>
+
+                {/* Section A Propos*/}
                 <section>
                     <h1>A Propos de Moi</h1>
                     <p>
@@ -60,6 +67,8 @@ const Cv = () => {
                     electronic typesetting, remaining essentially unchanged.
                     </p>
                 </section>
+
+                {/* Section Experiences*/}
                 <section>
                     <h1>Experiences</h1>
                     {
@@ -73,7 +82,8 @@ const Cv = () => {
                         ))
                     }
                 </section>
-
+                
+                {/* Section Formations*/}
                 <section className="education">
                     <div className="section-inner">
                         <h1>Formations</h1>
@@ -97,6 +107,7 @@ const Cv = () => {
                     </div>
                 </section>
 
+                {/* Section Compétences*/}
                 <section className="skills">
                     <div className="section-inner ">
                         <h2>Compétences</h2>
@@ -146,6 +157,8 @@ const Cv = () => {
                         </div>
                     </div>
                 </section>
+
+                {/* Section Diplomes & Certifications*/}
                 <section className="education" style={{marginBottom: '40px'}}>
                     <div className="section-inner">
                         <h1>Diplômes / Certification</h1>

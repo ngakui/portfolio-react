@@ -2,13 +2,20 @@ import { Col, Container, Row} from 'react-bootstrap';
 import Navmenu from "../components/NavMenu";
 import profil from "../assets/images/profil.jpg"
 
+/**
+ * Page d'accueil.
+ */
+
 const Home = () => {
     return (
         <div>
             <Navmenu/>
             <Container>
                 <Row>
-                    <Col className="home" md={6}><img src={profil} /></Col>
+                    {/*Image de la personne.*/}
+                    <Col className="home" md={6}><img src={profil} alt="Home image"/></Col>
+                    
+                    {/*Queslques détails sur la personne*/}
                     <Col className="home" md={6}>
                         <div className="name-detail">
                             <div>

@@ -13,6 +13,10 @@ import Project from '../pages/Project';
 // const Home = lazy(() => import('../pages/Home'));
 // const About = lazy(() => import('../pages/About'));
 
+/**
+ * Page des routes par laquelle 
+ * la navigation est effectuée entre les différentes pages.
+ */
 
 const Rooter = () => (
     // <Suspense fallback={<Loading/>}>
