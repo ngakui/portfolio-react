@@ -11,3 +11,53 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.home{
+  height: 100vh;
+  position: relative;
+}
+
+.home > img {
+  height: 100%;
+}
+
+.name-detail {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.poste {
+  color: grey;
+}
+
+.promo {
+  color: orange;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.img-circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.img-circle > img {
+  width: 100%;
+}
+
+.experience-contain-header {
+  padding-top: 60px;
+  padding-right: 0;
+  text-align: center;
+  color: #fff;
+  background-color: #4A1772;
+  text-transform: uppercase;
+}

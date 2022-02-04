@@ -1,22 +1,28 @@
-function Home() {
+import { Col, Container, Row} from 'react-bootstrap';
+import Navmenu from "../components/NavMenu";
+import profil from "../assets/images/profil.jpg"
+
+const Home = () => {
     return (
-        <div className="App">
-          <header className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
-            <p>
-              Edit <code>src/App.js</code> and save to reload.
-            </p>
-            <a
-              className="App-link"
-              href="https://reactjs.org"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learn React
-            </a>
-          </header>
+        <div>
+            <Navmenu/>
+            <Container>
+                <Row>
+                    <Col className="home" md={6}><img src={profil} /></Col>
+                    <Col className="home" md={6}>
+                        <div className="name-detail">
+                            <div>
+                                <h1 >Nom et Prenom</h1>
+                                <h2 className="poste">Développeur Web et Mobile</h2>
+                                <h2 className="promo">Promotion</h2>
+                            </div>
+                            <div>Socials icons</div>
+                        </div>
+                    </Col>
+                </Row>
+            </Container>
         </div>
-      );
+    );
 }
 
 export default Home;

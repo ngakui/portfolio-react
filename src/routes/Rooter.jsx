@@ -1,4 +1,4 @@
-import React, { lazy, Suspense } from 'react';
+import React, { Suspense } from 'react';
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -15,7 +15,7 @@ import Project from '../pages/Project';
 
 
 const Rooter = () => (
-    <Suspense fallback={<Loading/>}>
+    // <Suspense fallback={<Loading/>}>
         <Router>
             <Switch>
                 <Route exact path="/" component={Home}/>
@@ -24,7 +24,7 @@ const Rooter = () => (
                 <Route path="*" component={NotFound}/>
             </Switch>
         </Router>
-    </Suspense>
+    // </Suspense>
 );
 
 export default Rooter;
