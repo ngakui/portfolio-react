@@ -1,10 +1,10 @@
 import { Container } from "react-bootstrap";
 import CardComp from "../components/CardComp";
 import Navmenu from "../components/NavMenu";
-import projet1 from "../assets/images/project1.jpg"
-import projet2 from "../assets/images/project2.jpg"
-import projet3 from "../assets/images/project3.jpg"
-import projet4 from "../assets/images/project4.jpg"
+import projet1 from "../static/images/project1.jpg"
+import projet2 from "../static/images/project2.jpg"
+import projet3 from "../static/images/project3.jpg"
+import projet4 from "../static/images/project4.jpg"
 
 /**
  * Page projets où sont representés tous les projets de la personne.

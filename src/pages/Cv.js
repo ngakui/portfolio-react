@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPhoneAlt} from '@fortawesome/free-solid-svg-icons';
 import { faMapMarkedAlt} from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope} from '@fortawesome/free-solid-svg-icons';
-import profil from "../assets/images/profil.jpg"
+import profil from "../static/images/profil.jpg"
 import Experience from "../components/Experience";
 /**
  * Page CV où est representé toutes les informations de la personne.

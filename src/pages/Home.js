@@ -1,6 +1,6 @@
 import { Col, Container, Row} from 'react-bootstrap';
 import Navmenu from "../components/NavMenu";
-import profil from "../assets/images/profil.jpg"
+import profil from "../static/images/profil.jpg"
 
 /**
  * Page d'accueil.
@@ -13,7 +13,7 @@ const Home = () => {
             <Container>
                 <Row>
                     {/*Image de la personne.*/}
-                    <Col className="home" md={6}><img src={profil} alt="Home image"/></Col>
+                    <Col className="home" md={6}><img src={profil} alt="Home"/></Col>
                     
                     {/*Queslques détails sur la personne*/}
                     <Col className="home" md={6}>
