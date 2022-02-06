@@ -50,13 +50,13 @@ const QuizDetail = (props) => {
         result = [reponse1,reponse2, reponse3,reponse4, reponse5,reponse6, reponse7, reponse8, reponse9,reponse10];
 
         for (let i = 0; i < questions.length; i++) {
-            questions[i].propositions.forEach(propo => {
-                if(propo.value === result[i]){
-                    if (propo.status === true) {
+            for (let j = 0; j < questions[i].propositions.length; i++){
+                if(questions[i].propositions[j].value === result[i]){
+                    if (questions[i].propositions[j].status === true) {
                         note++
                     }
                 }
-            })
+            }
             
         }
         history.push({
