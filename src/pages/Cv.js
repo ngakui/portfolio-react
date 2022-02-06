@@ -87,20 +87,20 @@ const Cv = () => {
                 <section className="education">
                     <div className="section-inner">
                         <h1>Formations</h1>
-                        <div class="content">
-                            <div class="item">
-                                <h3 class="title">Spécialité - <span class="place"><a href="https://ngakui.fr">Ecole de Formation / Université</a></span> <span class="year">(Mois année - Mois année)</span></h3>
+                        <div className="content">
+                            <div className="item">
+                                <h3 className="title">Spécialité - <span className="place"><a href="https://ngakui.fr">Ecole de Formation / Université</a></span> <span className="year">(Mois année - Mois année)</span></h3>
                             </div>
-                            <div class="item">
-                                <h3 class="title">Spécialité - <span class="place"><a href="https://ngakui.fr">Ecole de Formation / Université</a></span> <span class="year">(Mois année - Mois année)</span></h3>
+                            <div className="item">
+                                <h3 className="title">Spécialité - <span className="place"><a href="https://ngakui.fr">Ecole de Formation / Université</a></span> <span className="year">(Mois année - Mois année)</span></h3>
                             </div>
                             
-                            <div class="item">
-                                <h3 class="title">Spécialité - <span class="place"><a href="https://ngakui.fr">Ecole de Formation / Université</a></span> <span class="year">(Mois année - Mois année)</span></h3>
+                            <div className="item">
+                                <h3 className="title">Spécialité - <span className="place"><a href="https://ngakui.fr">Ecole de Formation / Université</a></span> <span className="year">(Mois année - Mois année)</span></h3>
                             </div>
 
-                            <div class="item">
-                                <h3 class="title">Spécialité - <span class="place"><a href="https://ngakui.fr">Ecole de Formation / Université</a></span> <span class="year">(Mois année - Mois année)</span></h3>
+                            <div className="item">
+                                <h3 className="title">Spécialité - <span className="place"><a href="https://ngakui.fr">Ecole de Formation / Université</a></span> <span className="year">(Mois année - Mois année)</span></h3>
                             </div>
                             
                         </div>
@@ -112,45 +112,45 @@ const Cv = () => {
                     <div className="section-inner ">
                         <h2>Compétences</h2>
                         <div className="skillset">
-                            <div class="item">
-                                <h3 class="level-title">Python &amp; Django</h3>
-                                <div class="level-bar">
-                                    <div class="level-bar-inner" style={{width: '50%'}} >
+                            <div className="item">
+                                <h3 className="level-title">Python &amp; Django</h3>
+                                <div className="level-bar">
+                                    <div className="level-bar-inner" style={{width: '50%'}} >
                                     </div>                                      
                                 </div>                               
                             </div>
-                            <div class="item">
-                                <h3 class="level-title">Python &amp; Django</h3>
-                                <div class="level-bar">
-                                    <div class="level-bar-inner" style={{width: '80%'}} >
+                            <div className="item">
+                                <h3 className="level-title">Python &amp; Django</h3>
+                                <div className="level-bar">
+                                    <div className="level-bar-inner" style={{width: '80%'}} >
                                     </div>                                      
                                 </div>                               
                             </div>
-                            <div class="item">
-                                <h3 class="level-title">Python &amp; Django</h3>
-                                <div class="level-bar">
-                                    <div class="level-bar-inner" style={{width: '40%'}} >
+                            <div className="item">
+                                <h3 className="level-title">Python &amp; Django</h3>
+                                <div className="level-bar">
+                                    <div className="level-bar-inner" style={{width: '40%'}} >
                                     </div>                                      
                                 </div>                               
                             </div>
-                            <div class="item">
-                                <h3 class="level-title">Python &amp; Django</h3>
-                                <div class="level-bar">
-                                    <div class="level-bar-inner" style={{width: '75%'}} >
+                            <div className="item">
+                                <h3 className="level-title">Python &amp; Django</h3>
+                                <div className="level-bar">
+                                    <div className="level-bar-inner" style={{width: '75%'}} >
                                     </div>                                      
                                 </div>                               
                             </div>
-                            <div class="item">
-                                <h3 class="level-title">Python &amp; Django</h3>
-                                <div class="level-bar">
-                                    <div class="level-bar-inner" style={{width: '50%'}} >
+                            <div className="item">
+                                <h3 className="level-title">Python &amp; Django</h3>
+                                <div className="level-bar">
+                                    <div className="level-bar-inner" style={{width: '50%'}} >
                                     </div>                                      
                                 </div>                               
                             </div>
-                            <div class="item">
-                                <h3 class="level-title">Python &amp; Django</h3>
-                                <div class="level-bar">
-                                    <div class="level-bar-inner" style={{width: '50%'}} >
+                            <div className="item">
+                                <h3 className="level-title">Python &amp; Django</h3>
+                                <div className="level-bar">
+                                    <div className="level-bar-inner" style={{width: '50%'}} >
                                     </div>                                      
                                 </div>                               
                             </div>
@@ -162,15 +162,15 @@ const Cv = () => {
                 <section className="education" style={{marginBottom: '40px'}}>
                     <div className="section-inner">
                         <h1>Diplômes / Certification</h1>
-                        <div class="content">
-                            <div class="item">
-                                <h3 class="title">Intitulé du diplôme / certification - <span class="year">(Année d'obtention)</span></h3>
+                        <div className="content">
+                            <div className="item">
+                                <h3 className="title">Intitulé du diplôme / certification - <span className="year">(Année d'obtention)</span></h3>
                             </div>
-                            <div class="item">
-                                <h3 class="title">Intitulé du diplôme / certification - <span class="year">(Année d'obtention)</span></h3>
+                            <div className="item">
+                                <h3 className="title">Intitulé du diplôme / certification - <span className="year">(Année d'obtention)</span></h3>
                             </div>
-                            <div class="item">
-                                <h3 class="title">Intitulé du diplôme / certification - <span class="year">(Année d'obtention)</span></h3>
+                            <div className="item">
+                                <h3 className="title">Intitulé du diplôme / certification - <span className="year">(Année d'obtention)</span></h3>
                             </div>
                         </div>
                     </div>

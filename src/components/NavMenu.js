@@ -14,6 +14,7 @@ const Navmenu = () => {
             <Nav.Link ><Link to="/">Accueil</Link></Nav.Link>
             <Nav.Link ><Link to="/project">Projets</Link></Nav.Link>
             <Nav.Link ><Link to="/cv">CV</Link></Nav.Link>
+            <Nav.Link ><Link to="/quiz">Quiz</Link></Nav.Link>
             </Nav>
             </Container>
         </Navbar>

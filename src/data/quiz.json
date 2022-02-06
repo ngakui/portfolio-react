@@ -1,0 +1,865 @@
+{
+    "quiz": [
+        {
+                "nom": "Git",
+                "questions": [
+                    {
+                        "text": "C'est quoi Git?",
+                        "propositions": [
+                            {
+                                "value": "Un système de contrôle de version",
+                                "status": true
+                            },
+                            {
+                                "value": "Un langage de programmation",
+                                "status": false
+                            },
+                            {
+                                "value": "Un surnom de GitHub",
+                                "status": false
+                            },
+                            {
+                                "value": "Une plateforme de repertoire distant",
+                                "status": false
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Quelle commande permet de connaître la version de Git installée?",
+                        "propositions": [
+                            {
+                                "value": "git help version",
+                                "status": false
+                            },
+                            {
+                                "value": "gitVersion",
+                                "status": false
+                            },
+                            {
+                                "value": "getGitVersion",
+                                "status": false
+                            },
+                            {
+                                "value": "git --version",
+                                "status": true
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Quelle commande Git permet de considérer tous les fichiers ajoutés et/ou mis-à-jour?",
+                        "propositions": [
+                            {
+                                "value": "git add",
+                                "status": false
+                            },
+                            {
+                                "value": "git add all",
+                                "status": false
+                            },
+                            {
+                                "value": "git add --files",
+                                "status": false
+                            },
+                            {
+                                "value": "git add --all",
+                                "status": true
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Quelle commande permet de connaitre le statut du repertoire Git actuel?",
+                        "propositions": [
+                            {
+                                "value": "--status",
+                                "status": false
+                            },
+                            {
+                                "value": "git config --status",
+                                "status": false
+                            },
+                            {
+                                "value": "git status",
+                                "status": true
+                            },
+                            {
+                                "value": "git get status",
+                                "status": false
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Quelle commande permet initialiser Git dans un repertoire?",
+                        "propositions": [
+                            {
+                                "value": "start git",
+                                "status": false
+                            },
+                            {
+                                "value": "git start",
+                                "status": false
+                            },
+                            {
+                                "value": "initialize git",
+                                "status": false
+                            },
+                            {
+                                "value": "git init",
+                                "status": true
+                            }
+                        ]
+                    },
+                    {
+                        "text": "L'historique des commits de Git est automatiquement supprimé:",
+                        "propositions": [
+                            {
+                                "value": "L'historique n'est jamais supprimé automatiquement",
+                                "status": true
+                            },
+                            {
+                                "value": "Chaque mois",
+                                "status": false
+                            },
+                            {
+                                "value": "Chaque 2 semaines",
+                                "status": false
+                            },
+                            {
+                                "value": "Chaque année",
+                                "status": false
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Quelle commande permet de voir l'historique des commits?",
+                        "propositions": [
+                            {
+                                "value": "git commits",
+                                "status": false
+                            },
+                            {
+                                "value": "git log",
+                                "status": true
+                            },
+                            {
+                                "value": "git history",
+                                "status": false
+                            },
+                            {
+                                "value": "git --full-log",
+                                "status": false
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Sur Git, une branche est:",
+                        "propositions": [
+                            {
+                                "value": "une version séparée du repertoire main",
+                                "status": true
+                            },
+                            {
+                                "value": "Rien, c'est un mot dénué de sens",
+                                "status": false
+                            },
+                            {
+                                "value": "La partie secrète de Git config",
+                                "status": false
+                            },
+                            {
+                                "value": "Un petit baton magique pour saisir les commandes",
+                                "status": false
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Quelle commande permet de créer la branche 'new-email' ?",
+                        "propositions": [
+                            {
+                                "value": "git newBranch 'new-email'",
+                                "status": false
+                            },
+                            {
+                                "value": "git branch new-email",
+                                "status": true
+                            },
+                            {
+                                "value": "git branch new 'new-email'",
+                                "status": false
+                            },
+                            {
+                                "value": "git add branch 'new-email'",
+                                "status": false
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Quelle est la commande pour ajouter le repertoire distant 'https://abc.xyz/d/e.git' comme 'origin' ?",
+                        "propositions": [
+                            {
+                                "value": "git add origin https://abc.xyz/d/e.git",
+                                "status": false
+                            },
+                            {
+                                "value": "git origin=https://abc.xyz/d/e.git",
+                                "status": false
+                            },
+                            {
+                                "value": "git remote https://abc.xyz/d/e.git",
+                                "status": false
+                            },
+                            {
+                                "value": "git remote add origin https://abc.xyz/d/e.git",
+                                "status": true
+                            }
+                        ]
+                    }
+    
+                ]
+        },
+        {
+                "nom": "ReactJS",
+                "questions": [
+                    {
+                        "text": "Quelle est la commande correcte pour créer un nouveau projet React?",
+                        "propositions": [
+                            {
+                                "value": "npm create-react-app myReactApp",
+                                "status": false
+                            },
+                            {
+                                "value": "npm create-react-app",
+                                "status": false
+                            },
+                            {
+                                "value": "npx create-react-app",
+                                "status": false
+                            },
+                            {
+                                "value": "npx create-react-app myReactApp",
+                                "status": true
+                            }
+                        ]
+                    },
+                    {
+                        "text": "C'est quoi la propriété enfant?",
+                        "propositions": [
+                            {
+                                "value": "Une propriété qui vous permet d'imbriquer des composants dans d'autres composants",
+                                "status": true
+                            },
+                            {
+                                "value": "Une propriété qui vous permet de passer des données au composant enfant",
+                                "status": false
+                            },
+                            {
+                                "value": "Une propriété qui ajoute des valeurs enfant à l'état",
+                                "status": false
+                            },
+                            {
+                                "value": "Une propriété qui vous permet de définir un objet comme propriété.",
+                                "status": false
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Qu'appelle-t-on une copie du DOM 'réel' conservée en mémoire ?",
+                        "propositions": [
+                            {
+                                "value": "DOM virtuel",
+                                "status": true
+                            },
+                            {
+                                "value": "DOM",
+                                "status": false
+                            },
+                            {
+                                "value": "Shadow DOM",
+                                "status": false
+                            },
+                            {
+                                "value": "React DOM",
+                                "status": false
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Quel opérateur peut être utilisé pour effectuer un rendu conditionnel d'un composant React ?",
+                        "propositions": [
+                            {
+                                "value": "||",
+                                "status": false
+                            },
+                            {
+                                "value": "::",
+                                "status": false
+                            },
+                            {
+                                "value": "&&",
+                                "status": true
+                            },
+                            {
+                                "value": "??",
+                                "status": false
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Lors de la restitution d'une liste à l'aide de la méthode JavaScript map(), que faut-il pour chaque élément restitué ?",
+                        "propositions": [
+                            {
+                                "value": "key",
+                                "status": true
+                            },
+                            {
+                                "value": "id",
+                                "status": false
+                            },
+                            {
+                                "value": "data",
+                                "status": false
+                            },
+                            {
+                                "value": "index",
+                                "status": false
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Quel outil React utilise-t-il pour compiler JSX ?",
+                        "propositions": [
+                            {
+                                "value": "le compilateur JSX",
+                                "status": false
+                            },
+                            {
+                                "value": "React Router",
+                                "status": false
+                            },
+                            {
+                                "value": "Babel",
+                                "status": true
+                            },
+                            {
+                                "value": "ReactDOM",
+                                "status": false
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Comment optimiser les performances d'un composant fonctionnel dont le rendu est toujours le même ?",
+                        "propositions": [
+                            {
+                                "value": "Utiliser la methode de cycle de vie shouldComponentUpdate",
+                                "status": false
+                            },
+                            {
+                                "value": "Utiliser le Hook useReducer",
+                                "status": false
+                            },
+                            {
+                                "value": "Le mettre dans le composant d'ordre supérieur React.memo",
+                                "status": true
+                            },
+                            {
+                                "value": "Utiliser le Hook useMemo",
+                                "status": false
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Quel est un cas d'utilisation courant de 'ref' ?",
+                        "propositions": [
+                            {
+                                "value": "Pour lier la fonction",
+                                "status": false
+                            },
+                            {
+                                "value": "Pour directement accéder au noeud DOM",
+                                "status": true
+                            },
+                            {
+                                "value": "Pour faire référence à une fonction",
+                                "status": false
+                            },
+                            {
+                                "value": "Pour faire référence à un autre fichier Javascript",
+                                "status": false
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Quelle est la syntaxe correcte pour importer un composant depuis React ?",
+                        "propositions": [
+                            {
+                                "value": "import React.Component from 'react' ",
+                                "status": false
+                            },
+                            {
+                                "value": "import {Component} from 'react'",
+                                "status": true
+                            },
+                            {
+                                "value": "import Component from 'react'",
+                                "status": false
+                            },
+                            {
+                                "value": "import [Component] from 'react'",
+                                "status": false
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Lequel des éléments suivants n'est PAS une règle pour React Hooks ?",
+                        "propositions": [
+                            {
+                                "value": "Les Hooks peuvent être appellés dans les Classes ou Fonctions Composants",
+                                "status": true
+                            },
+                            {
+                                "value": "Les Hooks ne peuvent être conditionnels",
+                                "status": false
+                            },
+                            {
+                                "value": "Les Hooks peuvent uniquement être appellés au niveau élevé d'un Composant",
+                                "status": false
+                            },
+                            {
+                                "value": "Les Hooks peuvent uniquement être appellés dans les fonctions composants de React",
+                                "status": false
+                            }
+                        ]
+                    }
+                ]
+        },
+        {
+                "nom": "Javascript",
+                "questions": [
+                    {
+                        "text": "Quelle est la syntaxe correcte pour faire référence à un script externe appelé 'xxx.js' ?",
+                        "propositions": [
+                            {
+                                "value": "<script src='xxx.js'>",
+                                "status": true
+                            },
+                            {
+                                "value": "<script name='xxx.js'>",
+                                "status": false
+                            },
+                            {
+                                "value": "<script href='xxx.js'>",
+                                "status": false
+                            },
+                            {
+                                "value": "<script source='xxx.js'>",
+                                "status": false
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Comment écrire 'Hello World' dans une boîte d'alerte ?",
+                        "propositions": [
+                            {
+                                "value": "msg('Hello World');",
+                                "status": false
+                            },
+                            {
+                                "value": "alert('Hello World');",
+                                "status": true
+                            },
+                            {
+                                "value": "alertBox('Hello World');",
+                                "status": false
+                            },
+                            {
+                                "value": "msgBox('Hello World');",
+                                "status": false
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Comment appeler une fonction nommée 'maFonction' ?",
+                        "propositions": [
+                            {
+                                "value": "myFunction()",
+                                "status": true
+                            },
+                            {
+                                "value": "call myFunction()",
+                                "status": false
+                            },
+                            {
+                                "value": "call function myFunction()",
+                                "status": false
+                            },
+                            {
+                                "value": "function myFunction()",
+                                "status": false
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Comment commence une boucle FOR ?",
+                        "propositions": [
+                            {
+                                "value": "for(i<=5; i++)",
+                                "status": false
+                            },
+                            {
+                                "value": "for(i=0;i<=5; i++)",
+                                "status": true
+                            },
+                            {
+                                "value": "fori=1; i++)",
+                                "status": false
+                            },
+                            {
+                                "value": "for(i=0; i<=5)",
+                                "status": false
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Quelle est la manière correcte d'écrire un tableau JavaScript ?",
+                        "propositions": [
+                            {
+                                "value": "var colors = ['red','green','yellow']",
+                                "status": true
+                            },
+                            {
+                                "value": "var colors =  (1:'red', 2:'green', 3:'blue')",
+                                "status": false
+                            },
+                            {
+                                "value": "var colors = 'red', 'green', 'blue'",
+                                "status": false
+                            },
+                            {
+                                "value": "var colors = 1 = ('red'), 2 = ('green'), 3 = ('blue')",
+                                "status": false
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Comment arrondir le nombre 7,25 à l'entier le plus proche ?",
+                        "propositions": [
+                            {
+                                "value": "Math.round(7,25)",
+                                "status": true
+                            },
+                            {
+                                "value": "rnd(7,25)",
+                                "status": false
+                            },
+                            {
+                                "value": "round(7,25)",
+                                "status": false
+                            },
+                            {
+                                "value": "Math.rnd(7,25)",
+                                "status": false
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Quelle est la syntaxe JavaScript correcte pour ouvrir une nouvelle fenêtre appelée 'w2' ?",
+                        "propositions": [
+                            {
+                                "value": "w2 = window.new('http://xxx')",
+                                "status": false
+                            },
+                            {
+                                "value": "w2 = window('http://xxx')",
+                                "status": false
+                            },
+                            {
+                                "value": "w2 = window.open('http://xxx')",
+                                "status": true
+                            },
+                            {
+                                "value": "w2 = new Window('http://xxx')",
+                                "status": false
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Comment pouvez-vous détecter le nom du navigateur du client ?",
+                        "propositions": [
+                            {
+                                "value": "navigator.appName",
+                                "status": true
+                            },
+                            {
+                                "value": "client.navName",
+                                "status": false
+                            },
+                            {
+                                "value": "browser.name",
+                                "status": false
+                            },
+                            {
+                                "value": "browser.client",
+                                "status": false
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Quel événement se produit lorsque l'utilisateur clique sur un élément HTML ?",
+                        "propositions": [
+                            {
+                                "value": "onchange",
+                                "status": false
+                            },
+                            {
+                                "value": "onmouseover",
+                                "status": false
+                            },
+                            {
+                                "value": "onclick",
+                                "status": true
+                            },
+                            {
+                                "value": "onmouseclick",
+                                "status": false
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Quel opérateur est utilisé pour assigner une valeur à une variable?",
+                        "propositions": [
+                            {
+                                "value": "-",
+                                "status": false
+                            },
+                            {
+                                "value": "x",
+                                "status": false
+                            },
+                            {
+                                "value": "*",
+                                "status": false
+                            },
+                            {
+                                "value": "=",
+                                "status": true
+                            }
+                        ]
+                    }
+                ]
+        },
+        {
+                "nom": "Amazon Web Service",
+                "questions": [
+                    {
+                        "text": "Quel service AWS réduit la latence du réseau ?",
+                        "propositions": [
+                            {
+                                "value": "Amazon CloudFront",
+                                "status": true
+                            },
+                            {
+                                "value": "Elastic Load Balancing",
+                                "status": false
+                            },
+                            {
+                                "value": "AWS Direct Connect",
+                                "status": false
+                            },
+                            {
+                                "value": "AWS Transit Gateway",
+                                "status": false
+                            }
+                        ]
+                    },
+                    {
+                        "text": "C'est quoi AWS EC2 ?",
+                        "propositions": [
+                            {
+                                "value": "AWS EC2 est un service de calcul sans serveur.",
+                                "status": false
+                            },
+                            {
+                                "value": "AWS EC2 est un data center",
+                                "status": false
+                            },
+                            {
+                                "value": "AWS EC2 est un serveur virtuel dans le Cloud AWS",
+                                "status": true
+                            },
+                            {
+                                "value": "AWS EC2 est un service de contrôle des ressources",
+                                "status": false
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Qu'est-ce que les 'Edge Locations' ?",
+                        "propositions": [
+                            {
+                                "value": "Les Regions AWS",
+                                "status": false
+                            },
+                            {
+                                "value": "Des Data centers qui fournissent rapidement des données aux utilisateurs",
+                                "status": true
+                            },
+                            {
+                                "value": "Des Data centers qui stockent des pétaoctets de données",
+                                "status": false
+                            },
+                            {
+                                "value": "Des disques durs physique",
+                                "status": false
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Quelle perspective de l'AWS Cloud Adoption Framework se concentre sur la réduction des risques commerciaux ?",
+                        "propositions": [
+                            {
+                                "value": "Perspective d'Operations",
+                                "status": false
+                            },
+                            {
+                                "value": "Perspective de Gouvernance",
+                                "status": true
+                            },
+                            {
+                                "value": "Perspective de personnes",
+                                "status": false
+                            },
+                            {
+                                "value": "Perspective Business",
+                                "status": false
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Quel service envoie et reçoit des messages entre les composants de l'application ?",
+                        "propositions": [
+                            {
+                                "value": "AWS SImple Queue Service",
+                                "status": true
+                            },
+                            {
+                                "value": "AWS Snowmbile",
+                                "status": false
+                            },
+                            {
+                                "value": "AWS CloudTrail",
+                                "status": false
+                            },
+                            {
+                                "value": "AWS Lambda",
+                                "status": false
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Which AWS service helps you create users and provide them security access?",
+                        "propositions": [
+                            {
+                                "value": "AWS Redshift",
+                                "status": false
+                            },
+                            {
+                                "value": "AWS Direct Connect",
+                                "status": false
+                            },
+                            {
+                                "value": "AWS Identity and Access Managment",
+                                "status": true
+                            },
+                            {
+                                "value": "AWS CloudFormation",
+                                "status": false
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Quel service AWS gère le cryptage et le décryptage des données ?",
+                        "propositions": [
+                            {
+                                "value": "AWS Inspector",
+                                "status": false
+                            },
+                            {
+                                "value": "AWS Key Management",
+                                "status": true
+                            },
+                            {
+                                "value": "AWS GuardDuty",
+                                "status": false
+                            },
+                            {
+                                "value": "AWS WAF",
+                                "status": false
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Comment appelle-t-on un service qui vous permet d'exécuter du code sans avoir à penser aux serveurs ?",
+                        "propositions": [
+                            {
+                                "value": "AWS Serverless",
+                                "status": true
+                            },
+                            {
+                                "value": "AWS Lambda",
+                                "status": false
+                            },
+                            {
+                                "value": "AWS ECS",
+                                "status": false
+                            },
+                            {
+                                "value": "AWS EC2 Auto Scaling",
+                                "status": false
+                            }
+                        ]
+                    },
+                    {
+                        "text": "Quel service de base de données AWS a fourni des données historiques sur les modifications apportées à votre application ?",
+                        "propositions": [
+                            {
+                                "value": "AWS ElastiCache",
+                                "status": true
+                            },
+                            {
+                                "value": "AWS Neptune",
+                                "status": false
+                            },
+                            {
+                                "value": "AWS DocumentDB",
+                                "status": false
+                            },
+                            {
+                                "value": "AWS Quantum Ledger Database",
+                                "status": false
+                            }
+                        ]
+                    },
+                    {
+                        "text": "De quoi est capable AWS DynamoDB Accelerator ?",
+                        "propositions": [
+                            {
+                                "value": "Améliorer le temps de lecture des données relationnelles",
+                                "status": false
+                            },
+                            {
+                                "value": "Améliorer le temps de lecture des documents",
+                                "status": false
+                            },
+                            {
+                                "value": "Améliorer le temps de visualisation des graphes",
+                                "status": false
+                            },
+                            {
+                                "value": "Améliorer le temps de lecture des données non-relationnelles",
+                                "status": true
+                            }
+                        ]
+                    }
+                ]
+            }
+    ]
+}
